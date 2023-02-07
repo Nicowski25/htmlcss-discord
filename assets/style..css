@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -9,33 +10,69 @@
     background-color: darkslategray;
 }
 
-.debug #app-header {
-    width: 100%;
-    background-color: blueviolet;
-    padding: 1rem;
+.debug div, .debug #app-header {
+    height: 50px;
+    border: 1px solid red;
 }
 
-.debug #navbar {
-    width: 70%;
+#app-header {
+    width: 100%;
+    background: url(./img/jumbo.png);
+    background-size: cover;
+    padding: 1rem;
+    color: white;
+}
+
+#navbar {
+    width: 80%;
     height: 50px;
-    background-color: yellow;
-    margin: 10px auto;
+    margin: 30px auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+#links {
+    flex-grow: 2;
 }
 
 #links ul {
     list-style: none;
     display: flex;
+    justify-content: space-around;
 }
 
-.debug #bot-header {
-    width: 60%;
-    background-color: pink;
-    height: 200px;
+#bot-header {
+    width: 50%;
     margin: 10px auto;
+    text-align: center;
 }
+
+#title {
+    font-size: 2rem;
+}
+
+#introduction {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#download {
+    background-color: white;
+    border-radius: 2rem;
+    width: 125px;
+    height: 40px;
+}
+
+#browser {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    width: 200px;
+    height: 40px;
+}
+
+
+
 
 .debug .d-flex {
     width: 70%;
