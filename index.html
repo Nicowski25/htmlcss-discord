@@ -10,8 +10,8 @@
 
 <body class="debug">
 <!-- navigation bar e header -->
-    <div class="container">
-        <nav id="app-nav">
+    <div id="app-header">        
+        <nav id="navbar">
             <div> Menu </div>
             <div id="links">
                 <ul>
@@ -22,38 +22,46 @@
                     <li>link</li>
                 </ul>
             </div>
-            <div>Login</div>
-            
+            <div>Login</div>       
         </nav>
-        <header id="text-header"></header>
+
+        <div id="bot-header"></div>
     </div>
     
 <!-- main -->
     <main id="app-main">
 
-        <div class="d-flex">
-            <div id="image1"></div>
-            <div id="description1"></div>
-        </div>
+        <section class="bg-white">
+            <div class="container d-flex">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </section>
 
-        <div class="d-flex">
-            <div id="description2"></div>
-            <div id="image2"></div>
-        </div>
+        <section class="bg-gray">
+            <div class="container d-flex">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </section>
 
-        <div class="d-flex">
-            <div id="image3"></div>
-            <div id="description3"></div>
-        </div>
+        <section class="bg-white">
+            <div class="container d-flex">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+        </section>
 
-        <div class="d-flex">
-            <div id="image4"></div>
-        </div>
+        <section class="bg-gray">
+            <div class="d-flex">
+                <div id="image4"></div>
+            </div>
+        </section>
 
     </main>
     
 
-    <footer class="container">
+    <footer id="app-footer">
         <div id="top-footer" class="d-flex">
             <div id="mainfooter"></div>
             <div id="prodotto"></div>

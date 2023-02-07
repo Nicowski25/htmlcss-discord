@@ -5,11 +5,17 @@
 }
 
 .container {
-    width: 100%;
+    width: 70%;
     background-color: darkslategray;
 }
 
-.debug #app-nav {
+.debug #app-header {
+    width: 100%;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+.debug #navbar {
     width: 70%;
     height: 50px;
     background-color: yellow;
@@ -24,7 +30,7 @@
     display: flex;
 }
 
-.debug #text-header {
+.debug #bot-header {
     width: 60%;
     background-color: pink;
     height: 200px;
@@ -42,47 +48,40 @@
     display: flex;
 }
 
-.debug #image1 {
-    background-color: rgb(59, 59, 255);
+.debug .bg-white {
+    background-color: white;
+}
+
+.debug .bg-gray {
+    background-color: gray;
+    padding: 0.5rem;
+}
+
+.debug .left {
+    height: 100%;
     width: 60%;
-    padding: 1rem;
+    background-color: darkcyan;
 }
 
-.debug #description1 {
-    background-color: pink;
+.debug .right {
+    background-color: rosybrown;
+    height: 100%;
     width: 40%;
-    padding: 1rem;
-
 }
 
-.debug #image2 {
-    background-color: rgb(59, 59, 255);
-    width: 60%;
-    padding: 1rem;
-}
-
-.debug #description2 {
-    background-color: pink;
-    width: 40%;
-    padding: 1rem;
-}
-
-.debug #image3 {
-    background-color: rgb(59, 59, 255);
-    width: 60%;
-    padding: 1rem;
-}
-
-.debug #description3 {
-    background-color: pink;
-    width: 40%;
-    padding: 1rem;
-}
 
 .debug #image4 {
     background-color:darkgreen;
     padding: 1rem;
     width: 100%;
+}
+
+/* footer */
+
+.debug #app-footer {
+    width: 100%;
+    background-color: darkslategray;
+    padding: 0.5rem;
 }
 
 .debug #mainfooter {
@@ -121,4 +120,4 @@
     height: auto;
 }
 
-
+/* /footer */
