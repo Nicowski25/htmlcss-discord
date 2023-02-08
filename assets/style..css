@@ -7,18 +7,21 @@
 
 .container {
     width: 70%;
-    background-color: darkslategray;
+    margin: auto;
 }
 
-.debug div, .debug #app-header {
+/* .debug div, .debug #app-header {
     height: 50px;
     border: 1px solid red;
-}
+} */
+
+/* #region header*/
 
 #app-header {
     width: 100%;
     background: url(./img/jumbo.png);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 1rem;
     color: white;
 }
@@ -31,13 +34,30 @@
 }
 
 #links {
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 #links ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 1rem;
+
+}
+
+.btn-small {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.9rem;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
 }
 
 #bot-header {
@@ -56,8 +76,9 @@
 }
 
 #download {
+    display: inline-block;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 125px;
     height: 40px;
 }
@@ -71,39 +92,35 @@
     height: 40px;
 }
 
-
-
-
-.debug .d-flex {
-    width: 70%;
-    background-color: gray;
-    height: 300px;
-    margin: 20px auto;
-}
+/* #endregion header*/
 
 .d-flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.debug .bg-white {
+.bg-white {
     background-color: white;
 }
 
-.debug .bg-gray {
-    background-color: gray;
+.bg-gray {
+    background-color: rgb(170, 170, 170);
     padding: 0.5rem;
 }
 
-.debug .left {
-    height: 100%;
-    width: 60%;
-    background-color: darkcyan;
+section .section_image {
+    width: 100%;
 }
 
-.debug .right {
-    background-color: rosybrown;
-    height: 100%;
-    width: 40%;
+section .section_text {
+    width: 100%;
+    color: black;
+}
+
+section .section_text > h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
 }
 
 
